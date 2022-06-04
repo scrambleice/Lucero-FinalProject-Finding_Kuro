@@ -143,7 +143,7 @@ public class Story implements Events {
     
     @Override
     public void riverside() {
-    	gui.mainTextArea.setText("You walked into the riverside and drank water. You felt sleepy and took a nap. \n\n(Your HP is recovered by 5) \n\nNorth from the riverside is the crossroad, while west is the forest. \n\n(What will you do?)");
+    	gui.mainTextArea.setText("You walked into the riverside and drank water. You felt sleepy and took a nap. \n\n(Your HP is recovered by 5) \n\nNorth from the riverside is the crossroad, while west is the Spirit Forest. \n\n(What will you do?)");
     	player.setHp(player.getHp() + 5);
     	gui.hpNumberLabel.setText("" + player.getHp());
     	gui.choice1.setText("Go North (Crossroad)");
@@ -319,7 +319,7 @@ public class Story implements Events {
 	
     @Override
 	public void talkWitch() {
-		gui.mainTextArea.setText("Witch: Oh hello there! Don't worry, I don't bite. Although I may look scary, I'm actually quite friendly and knowledgable about a lot of things. So, you're here to defeat the Demon, aye? I heard that monster has an HP of 25 and Attack Damage of 10. I say it's quite a frightening creature. \n\n(What will you do?)");
+		gui.mainTextArea.setText("Witch: Oh hello there! Don't worry, I don't bite. Although I may look scary, I'm actually quite friendly and knowledgable about a lot of things. So, you're here to defeat the Demon, aye? I say it's quite a frightening creature. \n\n(What will you do?)");
 		gui.choice1.setText("Be healed by the Witch");
     	gui.choice2.setText("Back");
     	gui.choice3.setText("");
