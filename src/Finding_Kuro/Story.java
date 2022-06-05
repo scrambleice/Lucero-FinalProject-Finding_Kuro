@@ -256,7 +256,7 @@ public class Story implements Events {
             	game.setNextPosition4("");
         	}
         	else if(player.getHp()<1) {
-        		game.setNextPosition1("lose");
+        		game.setNextPosition1("loseGame");
             	game.setNextPosition2("");
             	game.setNextPosition3("");
             	game.setNextPosition4("");
